@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="32.0" layoutY="33.0" text="Month" />
+            <Label layoutX="39.0" layoutY="92.0" text="Day" />
+            <Label layoutX="37.0" layoutY="147.0" text="Year" />
+            <ComboBox layoutX="167.0" layoutY="88.0" prefWidth="150.0" />
+            <ComboBox layoutX="167.0" layoutY="29.0" prefWidth="150.0" />
+            <ComboBox layoutX="167.0" layoutY="143.0" prefWidth="150.0" />
+            <Separator layoutX="22.0" layoutY="70.0" prefWidth="200.0" />
+            <Separator layoutX="22.0" layoutY="124.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
